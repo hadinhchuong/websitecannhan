@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hà Đình Chương - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">HĐC</div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Trang Chủ</a></li>
+                    <li><a href="#about">Giới Thiệu</a></li>
+                    <li><a href="#skills">Kỹ Năng</a></li>
+                    <li><a href="#projects">Dự Án</a></li>
+                    <li><a href="#contact">Liên Hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Hà Đình Chương</h1>
+                        <p>Sinh Viên Công Nghệ Thông Tin | Lập Trình Viên Front-end</p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary">Xem Dự Án</a>
+                            <a href="#contact" class="btn btn-secondary">Liên Hệ</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="https://via.placeholder.com/400x500" alt="Hà Đình Chương">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Giới Thiệu</h2>
+                        <p>Tôi là Hà Đình Chương, sinh viên chuyên ngành Công Nghệ Thông Tin tại Đại học HUTECH. Với niềm đam mê lập trình và thiết kế web, tôi luôn không ngừng học hỏi và phát triển kỹ năng.</p>
+                        <div class="about-details">
+                            <div class="detail">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <h3>Học Vấn</h3>
+                                    <p>Đại học HUTECH</p>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-code"></i>
+                                <div>
+                                    <h3>Chuyên Ngành</h3>
+                                    <p>Công Nghệ Thông Tin</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Kỹ Năng</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <p>Phát triển giao diện web</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <p>Thiết kế và tạo kiểu</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>Lập trình tương tác</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <h3>React</h3>
+                        <p>Phát triển ứng dụng web</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Dự Án</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/350x250" alt="Dự Án 1">
+                        <div class="project-info">
+                            <h3>Hệ Thống Quản Lý Sinh Viên</h3>
+                            <p>Ứng dụng quản lý thông tin sinh viên sử dụng React</p>
+                            <a href="#" class="btn btn-small">Xem Chi Tiết</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/350x250" alt="Dự Án 2">
+                        <div class="project-info">
+                            <h3>Trang Web Bán Hàng</h3>
+                            <p>Website thương mại điện tử với chức năng thanh toán</p>
+                            <a href="#" class="btn btn-small">Xem Chi Tiết</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/350x250" alt="Dự Án 3">
+                        <div class="project-info">
+                            <h3>Ứng Dụng Thời Tiết</h3>
+                            <p>Ứng dụng theo dõi thời tiết sử dụng API</p>
+                            <a href="#" class="btn btn-small">Xem Chi Tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Liên Hệ</h2>
+                <div class="contact-content">
+                    <div class="contact-form">
+                        <form>
+                            <input type="text" placeholder="Họ Tên" required>
+                            <input type="email" placeholder="Email" required>
+                            <textarea placeholder="Tin Nhắn" required></textarea>
+                            <button type="submit" class="btn btn-primary">Gửi Tin Nhắn</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>chương.hd@example.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(+84) 123 456 789</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>TP. Hồ Chí Minh, Việt Nam</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2024 Hà Đình Chương. Bản quyền được bảo lưu.</p>
+        </div>
+    </footer>
+</body>
+</html>
